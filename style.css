@@ -48,3 +48,8 @@ body {
 #menu li {
   padding-right: 1em;
 }
+
+#menu::after {
+  content: "";
+  clear: both;
+  display: table;
