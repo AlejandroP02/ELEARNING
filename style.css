@@ -1,0 +1,50 @@
+* {
+border: thin solid red;
+margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+#header {
+  background-image: url(imagenes/anime.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: white;
+}
+#header li {
+  display: inline-block;
+  padding: 6px;
+}
+
+#header ul {
+  list-style-type: none;
+}
+
+#login {
+  background-color: forestgreen;
+}
+
+#menu {
+  background-color: white;
+  color: black;
+  padding: 1em;
+  padding-right: 3em;
+}
+#menu div {
+  display: inline-block;
+  font-size: 2.5em;
+}
+#menu ul {
+  float: right;
+  font-size: 1.5em;
+}
+#menu li {
+  padding-right: 1em;
+}
