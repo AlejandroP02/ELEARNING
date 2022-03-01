@@ -20,6 +20,8 @@ body {
 }
 #header li {
   display: inline-block;
+}
+.login1 {
   padding: 6px;
 }
 
@@ -28,22 +30,35 @@ body {
 }
 
 #login {
-  background-color: forestgreen;
+  background-color: #3ab54a;
 }
 
 #menu {
   background-color: white;
   color: black;
-  padding: 1em;
-  padding-right: 3em;
+
 }
 #menu div {
   display: inline-block;
   font-size: 2.5em;
+  padding: 0.5em;
+  padding-right: 3em;
 }
+
+#menu div > span {
+  color: #3ab54a;
+}
+
+#menu div > i {
+  color: #3ab54a;
+}
+
 #menu ul {
   float: right;
   font-size: 1.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  padding-right: 3em;
 }
 #menu li {
   padding-right: 1em;
@@ -53,3 +68,57 @@ body {
   content: "";
   clear: both;
   display: table;
+}
+
+#header-imagen {
+  text-align: center;
+  padding: 7em;
+}
+
+#header-imagen div > h1{
+  color: #3ab54a;
+  font-size: 2.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+#header-imagen div > h2{
+  font-size: 2em;
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+}
+
+.barra {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+#search {
+  position: absolute;
+  background-color: #3ab54a;
+  font-size: 1em;
+  padding: 11px;
+  padding-left: 2em;
+  padding-right: 2em;
+  float: right;
+}
+#busqueda{
+  font-size: 2em;
+}
+
+#no-se {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 13em;
+  padding-right: 13em;
+}
+
+.no-se-cosas {
+  text-align: center;
+}
+
+#no-se i {
+  font-size: 5em;
+  color: #3ab54a;
+}
