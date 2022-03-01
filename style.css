@@ -18,6 +18,11 @@ body {
 
   color: white;
 }
+#header-login {
+  text-align: right;
+  padding-right: 5em;
+}
+
 #header li {
   display: inline-block;
 }
@@ -98,7 +103,7 @@ body {
   position: absolute;
   background-color: #3ab54a;
   font-size: 1em;
-  padding: 11px;
+  padding: 10.8px;
   padding-left: 2em;
   padding-right: 2em;
   float: right;
@@ -116,6 +121,7 @@ body {
 
 .no-se-cosas {
   text-align: center;
+  padding: 1em;
 }
 
 #no-se i {
