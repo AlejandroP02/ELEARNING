@@ -121,10 +121,91 @@ body {
 
 .no-se-cosas {
   text-align: center;
-  padding: 1em;
+  padding: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 #no-se i {
   font-size: 5em;
   color: #3ab54a;
+}
+
+#cursos {
+  background-color: #f3f6fb;
+  padding: 2em;
+  padding-left: 13em;
+  padding-right: 13em;
+}
+
+#cursos h2 {
+  text-align: center;
+}
+#cursos h2 > span {
+  color: #3ab54a;
+}
+#cursos-menu ul {
+  list-style-type: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+#cursos-menu li {
+  display: inline-block;
+  padding: 10px;
+}
+#verde {background-color:#3ab54a }
+#all-courses {
+  float: right;
+  padding: 10px;
+  border: 1px solid #3ab54a;
+  color: #3ab54a;
+}
+#cursos-menu {
+  margin-top: 3em;
+  background-color: white;
+}
+
+#cartas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.carta img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.texto {
+  padding: 1em
+}
+.carta-sub {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #c1c1c1
+}
+.espacio {
+  height: 4px;
+  background-color: #f3f6fb;
+}
+.likes {
+  padding: 1em;
+}
+.likes div {padding: 2em;}
+.likes div > ul {
+  float: right;
+  padding: 0;
+}
+.likes div > ul > li {
+  color: green;
+  border: 1px solid none;
+  background-color: #97ebb7;
+  border-radius: 5em;
+}
+.likes span {
+  padding: 10px;
+  border: 1px solid #3ab54a;
+  border-radius: 5em;
+  background-color: #3ab54a;
+  color: white
 }
