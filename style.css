@@ -129,6 +129,7 @@ body {
 #no-se i {
   font-size: 5em;
   color: #3ab54a;
+  padding-bottom: 0.5em;
 }
 
 #cursos {
@@ -144,12 +145,18 @@ body {
 #cursos h2 > span {
   color: #3ab54a;
 }
-#cursos-menu ul {
+#cursos-menu-ul {
   list-style-type: none;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+
+#cursos-menu-ul {
+  clear: both;
+  display: inline-table;
+  content: " "; 
 }
 #cursos-menu li {
   display: inline-block;
@@ -173,16 +180,15 @@ body {
 }
 .carta img {
   width: 100%;
-  height: auto;
   max-width: 100%;
 }
 .texto {
-  padding: 1em
+  padding: 1em;
 }
 .carta-sub {
   padding-top: 1em;
   padding-bottom: 1em;
-  color: #c1c1c1
+  color: #c1c1c1;
 }
 .espacio {
   height: 4px;
@@ -195,9 +201,10 @@ body {
 .likes div > ul {
   float: right;
   padding: 0;
+  margin: -0.6em;
 }
 .likes div > ul > li {
-  color: green;
+  color: #3ab54a;
   border: 1px solid none;
   background-color: #97ebb7;
   border-radius: 5em;
@@ -207,5 +214,70 @@ body {
   border: 1px solid #3ab54a;
   border-radius: 5em;
   background-color: #3ab54a;
-  color: white
+  color: white;
 }
+
+#imagen-mitad {
+  background-image: url(imagenes/anime2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 7em;
+  text-align: center;
+}
+#imagen-mitad p {
+  padding-bottom: 2em;
+  font-weight: bold;
+}
+#verde1 {
+  color: #3ab54a;
+}
+
+#apply {
+  position: relative;
+  top: 2em;
+  color: white;
+  background-color: #3ab54a;
+  padding: 1em;
+}
+#imagenes {
+  text-align: center;
+  padding-left: 13em;
+  padding-right: 13em;
+}
+#videos {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#video-grande {
+  color: #3ab54a;
+  margin: 1em;
+  font-size: 3em;
+  padding: 5em;
+  background-image: url(imagenes/video1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#videos-pequeños {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.5em;
+}
+
+.videop {
+  margin: 0.5em;
+  color: #3ab54a;
+  font-size: 2em;
+  padding: 2em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#v1 {background-image: url(imagenes/video2.jpg);}
+#v2 {background-image: url(imagenes/video3.jpg);}
+#v3 {background-image: url(imagenes/video4.jpg);}
+#v4 {background-image: url(imagenes/video5.jpg);}
