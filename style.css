@@ -151,17 +151,19 @@ body {
   padding-right: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+  width: 96%;
 }
 
 #cursos-menu-ul {
   clear: both;
   display: inline-table;
-  content: " "; 
+  content: " ";
 }
 #cursos-menu li {
   display: inline-block;
   padding: 10px;
 }
+
 #verde {background-color:#3ab54a }
 #all-courses {
   float: right;
@@ -253,31 +255,38 @@ body {
 
 #video-grande {
   color: #3ab54a;
-  margin: 1em;
   font-size: 3em;
-  padding: 5em;
-  background-image: url(imagenes/video1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding: 0.5em;
+}
+#video-grande i {
+  padding: 4.7em;
+}
+.fa-circle-play {
+  position: absolute;
+  z-index: 2;
+  padding: 3em;
 }
 
 #videos-pequeños {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0.5em;
 }
 
 .videop {
-  margin: 0.5em;
   color: #3ab54a;
   font-size: 2em;
-  padding: 2em;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding: 0.5em;
 }
-#v1 {background-image: url(imagenes/video2.jpg);}
-#v2 {background-image: url(imagenes/video3.jpg);}
-#v3 {background-image: url(imagenes/video4.jpg);}
-#v4 {background-image: url(imagenes/video5.jpg);}
+
+#footer {
+  background-color: #1f2022;
+  padding-left: 13em;
+  padding-right: 13em;
+}
+#columnas-footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 2fr;
+}
+.blanco {
+  color: white;
+}
