@@ -249,22 +249,32 @@ body {
   padding-right: 13em;
 }
 #videos {
+  content: "";
+  clear: both;
+  display: table;
+}
+#videos {
   display: grid;
   grid-template-columns: 2fr 2fr;
 }
+#videos img {
+  max-width: 100%;
+  width: 100%;
+}
 
 #video-grande {
+  position: relative;
   color: #3ab54a;
   font-size: 3em;
   padding: 0.5em;
 }
-#video-grande i {
-  padding: 4.7em;
-}
+
 .fa-circle-play {
   position: absolute;
   z-index: 2;
-  padding: 3em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #videos-pequeños {
@@ -273,6 +283,7 @@ body {
 }
 
 .videop {
+  position: relative;
   color: #3ab54a;
   font-size: 2em;
   padding: 0.5em;
@@ -286,7 +297,85 @@ body {
 #columnas-footer {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr 2fr;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 .blanco {
   color: white;
+}
+.texto-footer {
+  color: #939aa0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#redes {
+  list-style-type: none;
+}
+#redes li{
+  font-size: 1.5em;
+  color: #939aa0;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4em;
+  background-color: #505455;
+  width: 1em;
+  text-align: center;
+}
+.titulos-footer {
+  color: white;
+  padding-bottom: 0.7em;
+}
+.linea {
+  border-bottom: 2px solid #3ab54a;
+  padding-bottom: 0.7em;
+}
+.punto {
+  list-style-type: none;
+  padding-left: 0;
+}
+.punto li {
+  padding-bottom: 5px;
+}
+#suscribirse {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+#suscribirse li {
+  display: inline-block;
+}
+#subbarra {
+  width: 50%;
+}
+#suscribirse li > input{
+  display: inline-block;
+  font-size: 2em;
+  width: 100%;
+}
+#sub {
+  position: absolute;
+  background-color: #3ab54a;
+  color: white;
+  padding: 0.7em;
+  top: 0;
+}
+#black {
+  background-color: black;
+  padding-top: 3em;
+}
+#black p {
+  text-align: center;
+  color: #939aa0;
+}
+.fa-angle-up {
+  position: relative;
+  right: 0;
+  padding: 10px;
+  font-size: 1em;
+  color: #939aa0;
+  background-color: white;
+  border-radius: 5em;
+  margin-bottom: 1em;
 }
