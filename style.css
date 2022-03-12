@@ -185,6 +185,7 @@ body {
 }
 .texto {
   padding: 1em;
+  font-size: 100%;
 }
 .carta-sub {
   padding-top: 1em;
@@ -306,6 +307,7 @@ body {
   color: #939aa0;
   padding-top: 2em;
   padding-bottom: 2em;
+  font-size: 100%;
 }
 
 #redes {
@@ -350,14 +352,14 @@ body {
 }
 #suscribirse li > input{
   display: inline-block;
-  font-size: 2em;
+  padding: 1em;
   width: 100%;
 }
 #sub {
   position: absolute;
   background-color: #3ab54a;
   color: white;
-  padding: 0.7em;
+  padding: 0.84em;
   top: 0;
 }
 #black {
@@ -370,11 +372,25 @@ body {
 }
 .fa-angle-up {
   position: relative;
-  right: 0;
+
   padding: 10px;
   font-size: 1em;
   color: #939aa0;
   background-color: white;
   border-radius: 5em;
   margin-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+  #columnas-footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .videop {
+    font-size: 1em;
+  }
+  #cartas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
