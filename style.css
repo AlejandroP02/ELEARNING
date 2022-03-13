@@ -192,11 +192,14 @@ body {
 .likes {
   padding: 1em;
 }
-.likes div {padding: 2em;}
+.precio {
+  position: relative;
+  padding: 2em;
+}
 .likes div > ul {
-  float: right;
+  position: absolute;
   padding: 0;
-  margin: -0.6em;
+  right: 10px;
 }
 .likes div > ul > li {
   color: #3ab54a;
@@ -205,6 +208,8 @@ body {
   border-radius: 5em;
 }
 .likes span {
+  position: absolute;
+  left: 10px;
   padding: 10px;
   border: 1px solid #3ab54a;
   border-radius: 5em;
@@ -393,5 +398,5 @@ body {
     font-size: 50%;
     padding: 5px;
   }
-  .likes div {padding: 1em;}
+
 }
