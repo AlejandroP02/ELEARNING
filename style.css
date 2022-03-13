@@ -348,7 +348,8 @@ body {
   display: inline-block;
 }
 #subbarra {
-  width: 50%;
+  width: 100%;
+  max-width: 50%
 }
 #suscribirse li > input{
   display: inline-block;
@@ -363,22 +364,23 @@ body {
   top: 0;
 }
 #black {
+  position: relative;
   background-color: black;
   padding-top: 3em;
 }
 #black p {
   text-align: center;
   color: #939aa0;
+  padding-bottom: 2.5em;
 }
 .fa-angle-up {
-  position: relative;
-
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
   padding: 10px;
-  font-size: 1em;
   color: #939aa0;
   background-color: white;
   border-radius: 5em;
-  margin-bottom: 1em;
 }
 
 @media (max-width: 1000px) {
@@ -399,5 +401,16 @@ body {
   #no-se {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  #black{
+    padding-top: 2em;
+  }
+  #black p {
+    font-size: 50%;
+    padding-bottom: 3em;
+  }
+  .fa-angle-up {
+    font-size: 50%;
+    padding: 5px;
   }
 }
