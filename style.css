@@ -91,25 +91,18 @@ body {
   padding-top: 0.2em;
   padding-bottom: 1em;
 }
-
-.barra {
-  list-style-type: none;
-  padding: 0;
+#busca {
+  width: 40%;
 }
-
-
+.busca {
+  padding: 10px;
+}
 #search {
-  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
   background-color: #3ab54a;
-  font-size: 1em;
-  padding: 10.8px;
-  padding-left: 2em;
-  padding-right: 2em;
-  float: right;
 }
-#busqueda{
-  font-size: 2em;
-}
+
 
 #no-se {
   display: grid;
@@ -339,29 +332,16 @@ body {
 .punto li {
   padding-bottom: 5px;
 }
-#suscribirse {
-  list-style-type: none;
-  padding: 0;
-  position: relative;
+.suscribirse {
+  padding: 10px;
 }
-#suscribirse li {
-  display: inline-block;
-}
-#subbarra {
-  width: 100%;
-  max-width: 50%
-}
-#suscribirse li > input{
-  display: inline-block;
-  padding: 1em;
-  width: 100%;
+#sub0 {
+  width: 50%;
 }
 #sub {
-  position: absolute;
   background-color: #3ab54a;
   color: white;
-  padding: 0.84em;
-  top: 0;
+  margin: 0;
 }
 #black {
   position: relative;
