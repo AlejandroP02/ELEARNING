@@ -386,6 +386,9 @@ body {
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
+  #columnas-footer div {
+    padding-right: 1em;
+  }
   .videop {
     font-size: 1em;
   }
