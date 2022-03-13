@@ -191,6 +191,7 @@ body {
 }
 .likes {
   padding: 1em;
+  padding-bottom: 2em;
 }
 .precio {
   position: relative;
