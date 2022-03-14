@@ -172,6 +172,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.carta {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 .carta img {
   width: 100%;
   max-width: 100%;
