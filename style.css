@@ -389,8 +389,18 @@ body {
   #columnas-footer div {
     padding-right: 1em;
   }
-  .videop {
-    font-size: 1em;
+  #footer {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  #videos-pequeños {
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #imagenes {
+    padding-left: 4em;
+    padding-right: 4em;
   }
   #cartas {
     display: grid;
@@ -416,11 +426,12 @@ body {
   grid-template-columns: 2fr;
   }
   #cursos {
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
   #no-se {
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
+
 }
