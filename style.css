@@ -167,14 +167,22 @@ body {
   margin-top: 3em;
   background-color: white;
 }
-
+#cursos-menu-espacio {
+  width: 100%;
+  height: 2em;
+  background-color: #f3f6fb;
+  padding-left: 0;
+  padding-right: 0;
+}
 #cartas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f3f6fb;
 }
 .carta {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  background-color: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 .carta img {
   width: 100%;
@@ -376,7 +384,7 @@ body {
 @media (max-width: 1000px) {
   #columnas-footer {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr;
   }
   #columnas-footer div {
     padding-right: 1em;
@@ -403,5 +411,16 @@ body {
     font-size: 50%;
     padding: 5px;
   }
-
+  #videos {
+  display: grid;
+  grid-template-columns: 2fr;
+  }
+  #cursos {
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+  #no-se {
+    padding-left: 7em;
+    padding-right: 7em;
+  }
 }
