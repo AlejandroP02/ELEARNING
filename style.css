@@ -433,5 +433,13 @@ body {
     padding-left: 4em;
     padding-right: 4em;
   }
-
+  #cursos-menu li {
+    display: list-item;
+  }
+  #menu li {
+  display: list-item;
+  }
+  #menu ul {
+    float: none;
+  }
 }
